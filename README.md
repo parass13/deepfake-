@@ -1,6 +1,6 @@
 ### Deepfake Analysis ML Project
 
-The Deepfake Analysis ML Project aims to develop a robust system for detecting fake images and distinguishing them from original ones in response to the proliferation of deepfake technology. This README provides an overview of the project, including its background, problem statement, objectives, significance, scope, key definitions, integration with Convolutional Neural Networks (CNN), deployment on localhost using Streamlit, and model accuracy.
+The Deepfake Analysis ML Project aims to develop a robust system for detecting fake images and distinguishing them from original ones in response to the proliferation of deepfake technology. This README provides an overview of the project, including its background, problem statement, objectives, significance, scope, key definitions, integration with Convolutional Neural Networks (CNN), deployment on localhost using Streamlit, model accuracy, and integration with MySQL for data storage and user login functionality.
 
 #### Background
 
@@ -30,15 +30,21 @@ The scope of the Deepfake Analysis ML Project includes:
 - Developing and training machine learning models, including CNN-based models, on diverse datasets of genuine and deepfake images.
 - Testing and validating the performance of the developed models using benchmarking and real-world scenarios.
 - Integrating the developed models into a web application using Streamlit for deployment on localhost.
+- Integrating with MySQL for data storage and user login functionality.
 - Providing documentation and resources to support the integration of our detection system into existing platforms and workflows.
 
 ### Model Accuracy
 
 The model developed as part of the Deepfake Analysis ML Project achieves an accuracy of approximately 70% in detecting fake images, based on our evaluation metrics.
 
+### Integration with MySQL
+
+MySQL is utilized within the project for data storage and user login functionality. User data collected during login processes is stored securely within a MySQL database, ensuring efficient management of user information and authentication processes.
+
 ### Key Definitions
 
 - **Deepfake**: Artificially manipulated visual or audio content created using deep learning algorithms.
 - **Convolutional Neural Networks (CNN)**: A class of deep neural networks, most commonly applied to analyzing visual imagery, by using a variation of multilayer perceptrons designed to require minimal preprocessing.
+- **MySQL**: An open-source relational database management system that uses Structured Query Language (SQL) for managing data.
 - **Machine Learning**: A subset of artificial intelligence that enables systems to learn from data and improve their performance over time.
 
